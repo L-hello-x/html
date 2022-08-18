@@ -35,3 +35,8 @@ git  branch 分支名
 
 
 10 .撤销提交  恢复到某个版本
+
+
+11. 修改git 邮箱 密码
+git config --global user.name
+git config --global user.email
