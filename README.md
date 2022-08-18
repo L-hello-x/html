@@ -35,7 +35,14 @@ git  branch 分支名
 
 
 10 .撤销提交  恢复到某个版本
-
+     回退某个版本：查询需要回退的commit记录
+        git  log
+           查看commitId
+        也可以通过Ui查看 gitk 来看
+     软恢复：
+        git reset --soft commitID
+     硬恢复:
+        git reset --hard commitID
 
 11. 修改git 邮箱 密码
 git config --global user.name
